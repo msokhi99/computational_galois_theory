@@ -1,0 +1,233 @@
+
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 10.5, Release Date: 2024-12-04                    │
+│ Using Python 3.12.5. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+
+sage: R = QQ['x']; x = R.gen()
+sage: f = x^6 - 3*x^5 + 7*x^4 - 9*x^3 + 7*x^2 - 3*x+1;
+sage: L.<a> = R.quo(f)
+sage: A = f.roots(L, multiplicities = False); A;
+sage: print(f"\nThe polynomial {f} has the following roots:\n\n{A}\n");
+
+The polynomial x^6 - 3*x^5 + 7*x^4 - 9*x^3 + 7*x^2 - 3*x + 1 has the following roots:
+
+[a, -a + 1, a^5 - 2*a^4 + 5*a^3 - 4*a^2 + 3*a, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 7*a - 2, -a^5 + 3*a^4 - 7*a^3 + 9*a^2 - 7*a + 3, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 3*a + 1]
+
+sage: ''' Question 1: '''
+' Question 1: '
+sage: for i in range(6):
+....:     perms = [b.lift() (A[i]) for b in A];
+....:     single_perm = Word(perms).standard_permutation() / Word(A).standard_permutation();
+....:     assert [A[j-1] for j in single_perm] == perms;
+....:     print(f"\nPermutation of tau_{i}:\n", perms);
+....:     print(f"\nPermutation of tau_{i} using one line notation: \n", single_perm);
+....: 
+
+Permutation of tau_0:
+ [a, -a + 1, a^5 - 2*a^4 + 5*a^3 - 4*a^2 + 3*a, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 7*a - 2, -a^5 + 3*a^4 - 7*a^3 + 9*a^2 - 7*a + 3, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 3*a + 1]
+
+Permutation of tau_0 using one line notation: 
+ [1, 2, 3, 4, 5, 6]
+
+Permutation of tau_1:
+ [-a + 1, a, -a^5 + 3*a^4 - 7*a^3 + 9*a^2 - 7*a + 3, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 3*a + 1, a^5 - 2*a^4 + 5*a^3 - 4*a^2 + 3*a, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 7*a - 2]
+
+Permutation of tau_1 using one line notation: 
+ [2, 1, 5, 6, 3, 4]
+
+Permutation of tau_2:
+ [a^5 - 2*a^4 + 5*a^3 - 4*a^2 + 3*a, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 3*a + 1, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 7*a - 2, a, -a + 1, -a^5 + 3*a^4 - 7*a^3 + 9*a^2 - 7*a + 3]
+
+Permutation of tau_2 using one line notation: 
+ [3, 6, 4, 1, 2, 5]
+
+Permutation of tau_3:
+ [a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 7*a - 2, -a^5 + 3*a^4 - 7*a^3 + 9*a^2 - 7*a + 3, a, a^5 - 2*a^4 + 5*a^3 - 4*a^2 + 3*a, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 3*a + 1, -a + 1]
+
+Permutation of tau_3 using one line notation: 
+ [4, 5, 1, 3, 6, 2]
+
+Permutation of tau_4:
+ [-a^5 + 3*a^4 - 7*a^3 + 9*a^2 - 7*a + 3, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 7*a - 2, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 3*a + 1, -a + 1, a, a^5 - 2*a^4 + 5*a^3 - 4*a^2 + 3*a]
+
+Permutation of tau_4 using one line notation: 
+ [5, 4, 6, 2, 1, 3]
+
+Permutation of tau_5:
+ [-a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 3*a + 1, a^5 - 2*a^4 + 5*a^3 - 4*a^2 + 3*a, -a + 1, -a^5 + 3*a^4 - 7*a^3 + 9*a^2 - 7*a + 3, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 7*a - 2, a]
+
+Permutation of tau_5 using one line notation: 
+ [6, 3, 2, 5, 4, 1]
+sage: ''' 
+....: tau_0 = Identity
+....: tau_1 = (01)(24)(35)
+....: tau_2 = (032)(145)
+....: tau 3 = (023)(154)
+....: tau_4 = (04)(13)(25)
+....: tau_5 = (05)(12)(34)
+....: '''
+' \ntau_0 = Identity\ntau_1 = (01)(24)(35)\ntau_2 = (032)(145)\ntau 3 = (023)(154)\ntau_4 = (04)(13)(25)\ntau_5 = (05)(12)(34)\n'
+sage: ''' Question 2 '''
+' Question 2 '
+sage: g = x^2 + 31;
+sage: B = g.roots(L, multiplicities=False); B;
+sage: print(f"\nThe polynomial {g} has the following roots:\n\n{B}\n");
+
+The polynomial x^2 + 31 has the following roots:
+
+[4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 7, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 7]
+
+sage: for i in range(6):
+....:     perms = [b.lift() (A[i]) for b in B];
+....:     single_perm = Word(perms).standard_permutation() / Word(B).standard_permutation();
+....:     assert [B[j-1] for j in single_perm] == perms;
+....:     print(f"\nPermutation of tau_{i}:\n", perms);
+....:     print(f"\nPermutation of tau_{i} using one line notation: \n", single_perm);
+....: 
+
+Permutation of tau_0:
+ [4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 7, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 7]
+
+Permutation of tau_0 using one line notation: 
+ [1, 2]
+
+Permutation of tau_1:
+ [-4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 7, 4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 7]
+
+Permutation of tau_1 using one line notation: 
+ [2, 1]
+
+Permutation of tau_2:
+ [4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 7, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 7]
+
+Permutation of tau_2 using one line notation: 
+ [1, 2]
+
+Permutation of tau_3:
+ [4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 7, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 7]
+
+Permutation of tau_3 using one line notation: 
+ [1, 2]
+
+Permutation of tau_4:
+ [-4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 7, 4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 7]
+
+Permutation of tau_4 using one line notation: 
+ [2, 1]
+
+Permutation of tau_5:
+ [-4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 7, 4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 7]
+
+Permutation of tau_5 using one line notation: 
+ [2, 1]
+sage: '''
+....: tau_0 = Identity
+....: tau_1 = (01)
+....: tau_2 = Identity
+....: tau_3 = Identity
+....: tau_4 = (01)
+....: tau_5 = (01)
+....: '''
+'\ntau_0 = Identity\ntau_1 = (01)\ntau_2 = Identity\ntau_3 = Identity\ntau_4 = (01)\ntau_5 = (01)\n'
+sage: ''' Question 3 '''
+' Question 3 '
+sage: h = x^3 + x + 1;
+sage: C = h.roots(L, multiplicities=False); C;
+sage: print(f"\nThe polynomial {h} has the following roots:\n\n{C}\n");
+
+The polynomial x^3 + x + 1 has the following roots:
+
+[a^4 - 2*a^3 + 5*a^2 - 4*a + 2, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 2, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a]
+
+sage: for i in range(6):
+....:     perms = [b.lift() (A[i]) for b in C];
+....:     single_perm = Word(perms).standard_permutation() / Word(C).standard_permutation();
+....:     assert [C[j-1] for j in single_perm] == perms;
+....:     print(f"\nPermutation of tau_{i}:\n", perms);
+....:     print(f"\nPermutation of tau_{i} using one line notation: \n", single_perm);
+....: 
+
+Permutation of tau_0:
+ [a^4 - 2*a^3 + 5*a^2 - 4*a + 2, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 2, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a]
+
+Permutation of tau_0 using one line notation: 
+ [1, 2, 3]
+
+Permutation of tau_1:
+ [a^4 - 2*a^3 + 5*a^2 - 4*a + 2, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 2]
+
+Permutation of tau_1 using one line notation: 
+ [1, 3, 2]
+
+Permutation of tau_2:
+ [a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 2, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a, a^4 - 2*a^3 + 5*a^2 - 4*a + 2]
+
+Permutation of tau_2 using one line notation: 
+ [2, 3, 1]
+
+Permutation of tau_3:
+ [-a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a, a^4 - 2*a^3 + 5*a^2 - 4*a + 2, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 2]
+
+Permutation of tau_3 using one line notation: 
+ [3, 1, 2]
+
+Permutation of tau_4:
+ [-a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 2, a^4 - 2*a^3 + 5*a^2 - 4*a + 2]
+
+Permutation of tau_4 using one line notation: 
+ [3, 2, 1]
+
+Permutation of tau_5:
+ [a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 2, a^4 - 2*a^3 + 5*a^2 - 4*a + 2, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a]
+
+Permutation of tau_5 using one line notation: 
+ [2, 1, 3]
+sage: '''
+....: tau_0 = Identity
+....: tau_1 = (12)
+....: tau_2 = (021)
+....: tau_3 = (012)
+....: tau_4 = (02)
+....: tau_5 = (01)
+....: '''
+'\ntau_0 = Identity\ntau_1 = (12)\ntau_2 = (021)\ntau_3 = (012)\ntau_4 = (02)\ntau_5 = (01)\n'
+sage: ''' Question 4 '''
+' Question 4 '
+sage:  m = x^5 - 5*x^4 + 42*x^3 - 105*x^2 + 130*x - 32;
+sage: D = m.roots(L, multiplicities = False); D;
+sage: print(f"\nThe polynomial {m} has the following roots:\n\n{D}\n");
+
+The polynomial x^5 - 5*x^4 + 42*x^3 - 105*x^2 + 130*x - 32 has the following roots:
+
+[a^4 - 2*a^3 + 5*a^2 - 4*a + 3, 4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 6, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 1, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a + 1, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 8]
+
+sage: for i in range(6):
+....:     perms = [b.lift() (A[i]) for b in D];
+....:     single_perm = Word(perms).standard_permutation() / Word(D).standard_permutation();
+....:     assert [D[j-1] for j in single_perm] == perms;
+....:     print(f"Permutation of tau_{i}: ", perms);
+....:     print(f"Permutation of tau_{i} using one line notation: ", single_perm);
+....: 
+Permutation of tau_0:  [a^4 - 2*a^3 + 5*a^2 - 4*a + 3, 4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 6, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 1, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a + 1, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 8]
+Permutation of tau_0 using one line notation:  [1, 2, 3, 4, 5]
+Permutation of tau_1:  [a^4 - 2*a^3 + 5*a^2 - 4*a + 3, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 8, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a + 1, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 1, 4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 6]
+Permutation of tau_1 using one line notation:  [1, 5, 4, 3, 2]
+Permutation of tau_2:  [a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 1, 4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 6, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a + 1, a^4 - 2*a^3 + 5*a^2 - 4*a + 3, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 8]
+Permutation of tau_2 using one line notation:  [3, 2, 4, 1, 5]
+Permutation of tau_3:  [-a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a + 1, 4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 6, a^4 - 2*a^3 + 5*a^2 - 4*a + 3, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 1, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 8]
+Permutation of tau_3 using one line notation:  [4, 2, 1, 3, 5]
+Permutation of tau_4:  [-a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a + 1, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 8, a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 1, a^4 - 2*a^3 + 5*a^2 - 4*a + 3, 4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 6]
+Permutation of tau_4 using one line notation:  [4, 5, 3, 1, 2]
+Permutation of tau_5:  [a^5 - 3*a^4 + 7*a^3 - 9*a^2 + 6*a - 1, -4*a^5 + 10*a^4 - 24*a^3 + 26*a^2 - 22*a + 8, a^4 - 2*a^3 + 5*a^2 - 4*a + 3, -a^5 + 2*a^4 - 5*a^3 + 4*a^2 - 2*a + 1, 4*a^5 - 10*a^4 + 24*a^3 - 26*a^2 + 22*a - 6]
+Permutation of tau_5 using one line notation:  [3, 5, 1, 4, 2]
+sage: '''
+....: tau_0 = Identity
+....: tau_1 = (14)(23)
+....: tau_2 = (023)
+....: tau_3 = (032)
+....: tau_4 = (03)(14)
+....: tau_5 = (02)(14)
+....: '''
+'\ntau_0 = Identity\ntau_1 = (14)(23)\ntau_2 = (023)\ntau_3 = (032)\ntau_4 = (03)(14)\ntau_5 = (02)(14)\n'
+sage: 

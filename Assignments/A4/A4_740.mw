@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2024" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" scientificx="true" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1112" rtablesize="[10, 10]" useclientjvm="true" format="worksheet" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" strikethrough="false" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" strikethrough="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" strikethrough="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" strikethrough="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+	<Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group hide-input="false" labelreference="L31" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">restart:
+
+f := x^6 - 3*x^5 + 7*x^4 - 9*x^3 + 7*x^2 - 3*x + 1:
+fRoots := [solve(f=0, x)];
+
+A0 := fRoots[1]:
+A1 := fRoots[2]:
+A2 := fRoots[3]:
+A3 := fRoots[4]:
+A4 := fRoots[5]:
+A5 := fRoots[6]:
+
+alpha := A0:
+
+tau := proc(i::integer, E)
+       local subE;
+       subE := subs(alpha = fRoots[i], E);
+       return subE;
+       end proc:
+
+whichRoot := proc(expr, theRoots)
+             local k, eqcheck;
+             for k to nops(theRoots) do
+                 eqcheck := simplify(expr - theRoots[k]);
+                 if eqcheck = 0 then
+                     return k-1;
+                 fi:
+                 eqcheck := evalf(expr - theRoots[k]);
+                 if abs(eqcheck) &lt; 1.0e-10 then
+                     return k-1;
+                 fi:
+             od:
+             return -1;
+             end proc:
+
+makePermutation := proc(i::integer, theRoots)
+                   local j, result, idx, perm;
+                   perm := [];
+                   for j to nops(theRoots) do
+                       result := tau(i, theRoots[j]);
+                       idx := whichRoot(result, theRoots);
+                       perm := [op(perm), idx];
+                   od:
+                   return perm;
+                   end proc:
+printf(&quot;Question 1:\134n&quot;);
+printf(&quot;\134nPermutations of the F-roots A0 to A5:\134n&quot;);
+for i from 1 to 6 do
+    pF;
+    pF := makePermutation(i, fRoots);
+    printf(&quot;\134ntau_%d =&gt; %a\134n&quot;, i-1, pF);   
+od:
+
+g := x^2 + 31:
+Bg := solve(g=0, x):
+Broots := [Bg];
+B0 := Broots[1]:
+B1 := Broots[2]:
+printf(&quot;Question 2:\134n&quot;):
+printf(&quot;Permutations of the G-roots B0 to B1:\134n&quot;);
+for i from 1 to 6 do
+    pB;
+    pB := makePermutation(i, Broots);
+    printf(&quot;\134ntau_%d =&gt; %a\134n&quot;, i-1, pB);
+od:
+
+h := x^3 + x + 1:
+Ch := solve(h=0, x):
+Croots := [Ch]; 
+C0 := Croots[1]:
+C1 := Croots[2]:
+C2 := Croots[3]:
+printf(&quot;Question 3:\134n&quot;):
+printf(&quot;Permutations of the H-roots C0 to C2:\134n&quot;);
+for i from 1 to 6 do
+    pC;
+    pC := makePermutation(i, Croots);
+    printf(&quot;\134ntau_%d =&gt; %a\134n&quot;, i-1, pC);
+od:
+
+m := x^5 - 5*x^4 + 42*x^3 - 105*x^2 + 130*x - 32:
+Dm := solve(m=0, x):
+Droots := [Dm];
+D0 := Droots[1]:
+D1 := Droots[2]:
+D2 := Droots[3]:
+D3 := Droots[4]:
+D4 := Droots[5]:
+printf(&quot;Question 4:\134n&quot;):
+printf(&quot;Permutations of the M-roots D0 to D4:\134n&quot;);
+for i from 1 to 6 do
+    pD;
+    pD := makePermutation(i, Droots);
+    printf(&quot;\134ntau_%d =&gt; %a\134n&quot;, i-1, pD);
+end do:
+</Font></Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEnZlJvb3RzRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LlEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC8lKWVxdWFsaXR5R0Y9LUkobWZlbmNlZEdGJDYmLUYjNjAtSSZtZnJhY0dGJDYoLUYjNiYtRiM2Ji1JI21uR0YkNiRRLSZJbWFnaW5hcnlJO0YnRjktRjY2LlExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZfb0ZPLUkmbXNxcnRHRiQ2Iy1GIzYqLUZobjYkUSUxMTI4RidGOS1GNjYuUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXXBGTy1GIzYmLUZobjYkUSM3MkYnRjlGW28tRmJvNiMtRmhuNiRRIzkzRidGOUY5RmlvLUYjNiYtRmhuNiRRIzM5RidGOUZbby1JJW1zdXBHRiQ2JS1GUjYkLUYjNiYtRmhuNiRRJDE4OEYnRjlGaW8tRiM2Ji1GaG42JFEjMTJGJ0Y5RltvRmRwRjlGOUY5LUZXNigtRmhuNiRRIjJGJ0Y5LUZobjYkUSIzRidGOS8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGanIvJSliZXZlbGxlZEdGMS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOUZpby1GIzYmLUZobjYkUSQxNjhGJ0Y5RltvLUZfcTYlRmFxLUZXNigtRmhuNiRGZ3JGOUZickZlckZockZbc0Zdc0Zfc0Y5RjlGOUZpby1GIzYmRmJyRltvRmdzRjlGOS1GIzYmLUZobjYkUSI2RidGOUZbb0Znc0Y5RmVyRmhyRltzL0Zec0Y9LUY2Ni5RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGXm8vRk5RLDAuMzMzMzMzM2VtRidGTy1GVzYoLUYjNictRjY2LlEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIRlxwRl5wRk9GZW5GaW9GXXRGOUZfdEZlckZockZbc0ZkdEZldC1GVzYoLUYjNiZGXXRGaW8tRmJvNiMtRiM2MC1GIzYqLUZobjYkUSM4NEYnRjlGW29GZ25GW29GZ3NGW28tRmJvNiNGYnJGOS1GNjYuUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIRlxwRl5wRk8tRiM2Ki1GaG42JFEjMzZGJ0Y5RltvRmduRltvRl92RltvRmRwRjlGYXZGaXBGYXYtRiM2KC1GaG42JFEkNTY0RidGOUZbb0ZnbkZbb0ZfdkY5RmlvLUYjNiZGXHZGW29GZ3NGOUZpby1GIzYmRmZ2RltvRmRwRjlGaW9GW3dGOUY5Rl90RmVyRmhyRltzRmR0RmV0LUZXNigtRiM2JkZddEZhdkZmdUY5Rl90RmVyRmhyRltzRmR0RmV0LUZXNigtRiM2JkZddEZhdi1GYm82Iy1GIzYxRl91Rmp1RmlvRmR2RmF2RmlwRmlvRml2RmlvRl53RmlvRmB3RmlvRlt3RjlGOUZfdEZlckZockZbc0ZkdEZldC1GVzYoLUYjNiZGXXRGaW9GandGOUZfdEZlckZockZbc0ZkdC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5RjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRjk=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdmUm9vdHNHRig3KCwkKiYsJiomXiMiIiJGNCwqIiVHNkY0KiQiIyQqI0Y0IiIjIiNzKiQsJiIkKT1GNEY3IiM3I0Y6IiIkIiNSKiRGPSNGNEZBIiRvIkY5RjRGQ0ZBRjRGPSMhIiJGQSNGNCIiJywkKiYsJiomXiNGR0Y0RjVGOUY0RkNGQUY0Rj1GRkZILCQqJiwmRkNGQSokLDAqKF4jIiMlKUY0Rj1GREZBRjlGNCooXiMhI09GNEZBRjlGOEY5RjRGPCEjUiomXiMhJGsmRjRGQUY5RjRGQ0ZWRjciI08iJGsmRjRGOUY0RjRGPUZGRkgsJComLCZGQ0ZBRlJGR0Y0Rj1GRkZILCQqJiwmRkNGQSokLDAqKF4jISMlKUY0Rj1GREZBRjlGNCooXiNGaG5GNEZBRjlGOEY5RjRGPEZaKiZeI0ZpbkY0RkFGOUY0RkNGVkY3RmhuRmluRjRGOUZHRjRGPUZGRkgsJComLCZGQ0ZBRmBvRjRGNEY9RkZGSDcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Question 1:
+
+Permutations of the F-roots A0 to A5:
+
+tau_0 =&gt; [0, 1, 2, 3, 4, 5]
+
+tau_1 =&gt; [1, 1, 2, 3, 4, 5]
+
+tau_2 =&gt; [2, 1, 2, 3, 4, 5]
+
+tau_3 =&gt; [3, 1, 2, 3, 4, 5]
+
+tau_4 =&gt; [4, 1, 2, 3, 4, 5]
+
+tau_5 =&gt; [5, 1, 2, 3, 4, 5]
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEnQnJvb3RzRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LlEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC8lKWVxdWFsaXR5R0Y9LUkobWZlbmNlZEdGJDYmLUYjNigtRiM2Ji1JI21uR0YkNiRRLSZJbWFnaW5hcnlJO0YnRjktRjY2LlExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZqbkZPLUkmbXNxcnRHRiQ2Iy1GWTYkUSMzMUYnRjlGOS1GNjYuUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmluL0ZOUSwwLjMzMzMzMzNlbUYnRk8tRiM2Ji1GWTYkUTYmdW1pbnVzMDsmSW1hZ2luYXJ5STtGJ0Y5RmZuRlxvRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdCcm9vdHNHRig3JComXiMiIiJGMSIjSiNGMSIiIyomXiMhIiJGMUYyRjM3I0Yu</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Question 2:
+Permutations of the G-roots B0 to B1:
+
+tau_0 =&gt; [0, 1]
+
+tau_1 =&gt; [0, 1]
+
+tau_2 =&gt; [0, 1]
+
+tau_3 =&gt; [0, 1]
+
+tau_4 =&gt; [0, 1]
+
+tau_5 =&gt; [0, 1]
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEnQ3Jvb3RzRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LlEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC8lKWVxdWFsaXR5R0Y9LUkobWZlbmNlZEdGJDYmLUYjNiotRiM2Jy1GNjYuUSomdW1pbnVzMDtGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GZm5GTy1JJm1mcmFjR0YkNigtSSVtc3VwR0YkNiUtRlI2JC1GIzYmLUkjbW5HRiQ2JFEkMTA4RidGOS1GNjYuUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkhGZW5GZ25GTy1GIzYmLUZjbzYkUSMxMkYnRjktRjY2LlExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZicEZPLUkmbXNxcnRHRiQ2Iy1GY282JFEjOTNGJ0Y5RjlGOUY5LUZpbjYoLUZjbzYkUSIxRidGOS1GY282JFEiM0YnRjkvJS5saW5ldGhpY2tuZXNzR0ZecS8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZmcS8lKWJldmVsbGVkR0YxLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GY282JFEiNkYnRjlGYnFGZHFGZ3EvRmpxRj1GZm8tRmluNigtRmNvNiRRIjJGJ0Y5RltvRmJxRmRxRmdxRmFyRjktRjY2LlEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZhcC9GTlEsMC4zMzMzMzMzZW1GJ0ZPLUYjNigtRmluNihGW29GW3BGYnFGZHFGZ3FGYXItRjY2LlEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZlbkZnbkZPLUZpbjYoRlxxRltvRmJxRmRxRmdxRmFyRmZvLUZpbjYoLUYjNigtRmNvNiRRLSZJbWFnaW5hcnlJO0YnRjlGXnAtRmVwNiNGX3FGXnAtRlI2JC1GIzYnRlhGaG5GYXNGYnJGOUY5RjlGZHJGYnFGZHFGZ3FGYXJGOUZnci1GIzYoRl9zRmFzRmRzRmFzRmZzRjkvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOUY5LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJ0Y5">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdDcm9vdHNHRig3JSwmKiQsJiIkMyIiIiIqJCIjJCojRjMiIiMiIzcjRjMiIiQjISIiIiInKiRGMSNGPEY6RjcsKEYwI0YzRjhGPkY8KiheI0Y2RjNGOkY2LCZGMEY7Rj4hIiNGM0YzLChGMEZBRj5GPCooXiMjRjxGN0YzRjpGNkZERjNGMzcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Question 3:
+Permutations of the H-roots C0 to C2:
+
+tau_0 =&gt; [0, 1, 2]
+
+tau_1 =&gt; [0, 1, 2]
+
+tau_2 =&gt; [0, 1, 2]
+
+tau_3 =&gt; [0, 1, 2]
+
+tau_4 =&gt; [0, 1, 2]
+
+tau_5 =&gt; [0, 1, 2]
+</Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEnRHJvb3RzRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LlEpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC8lKWVxdWFsaXR5R0Y9LUkobWZlbmNlZEdGJDYmLUYjNi4tRiM2Ji1JI21uR0YkNiRRIjFGJ0Y5LUY2Ni5RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5Gam5GTy1GIzYmLUZZNiRRLSZJbWFnaW5hcnlJO0YnRjktRjY2LlExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZlb0ZPLUkmbXNxcnRHRiQ2Iy1GWTYkUSMzMUYnRjlGOUY5LUY2Ni5RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGZG8vRk5RLDAuMzMzMzMzM2VtRidGTy1GIzYmRlgtRjY2LlEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIRmluRltvRk9GXG9GOUZdcC1GIzYpLUY2Ni5RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSEZpbkZbb0ZPLUkmbWZyYWNHRiQ2KC1JJW1zdXBHRiQ2JS1GUjYkLUYjNiYtRlk2JFEkMTA4RidGOUZlcC1GIzYmLUZZNiRRIzEyRidGOUZhby1GaG82Iy1GWTYkUSM5M0YnRjlGOUY5RjktRl5xNihGWC1GWTYkUSIzRidGOS8lLmxpbmV0aGlja25lc3NHRmVuLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl1zLyUpYmV2ZWxsZWRHRjEvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUZZNiRRIjZGJ0Y5RmlyRltzRl5zL0Zhc0Y9RmVwLUZecTYoLUZZNiRRIjJGJ0Y5RmBxRmlyRltzRl5zRmhzRmVwRlhGOUZdcC1GIzYqLUZecTYoRmBxRlxyRmlyRltzRl5zRmhzRmZuLUZecTYoRlhGYHFGaXJGW3NGXnNGaHNGZXBGWEZlcC1GXnE2KC1GIzYoRl5vRmFvLUZobzYjRmZyRmFvLUZSNiQtRiM2J0ZqcEZdcUZmbkZpc0Y5RjlGOUZbdEZpckZbc0Zec0Zoc0Y5Rl1wLUYjNipGYHRGZm5GYnRGZXBGWEZmbkZkdEY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOS8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGOQ==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdEcm9vdHNHRig3JywmIiIiRjAqJl4jISIiRjAiI0ojRjAiIiNGMCwmRjBGMComXiNGMEYwRjRGNUYwLCgqJCwmIiQzIkYwKiQiIyQqRjUiIzcjRjAiIiQjRjMiIicqJEY8I0YzRkJGNkYwRjAsKkY7I0YwRkBGRUYzRjBGMCooXiNGNUYwRkJGNSwmRjtGQ0ZFISIjRjBGMCwqRjtGSEZFRjNGMEYwKiheIyNGM0Y2RjBGQkY1RktGMEYwNyNGLg==</Equation></Text-field>
+</Output>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Question 4:
+Permutations of the M-roots D0 to D4:
+
+tau_0 =&gt; [0, 1, 2, 3, 4]
+
+tau_1 =&gt; [0, 1, 2, 3, 4]
+
+tau_2 =&gt; [0, 1, 2, 3, 4]
+
+tau_3 =&gt; [0, 1, 2, 3, 4]
+
+tau_4 =&gt; [0, 1, 2, 3, 4]
+
+tau_5 =&gt; [0, 1, 2, 3, 4]
+</Text-field>
+</Output>
+</Group>
+<Group labelreference="L48" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
